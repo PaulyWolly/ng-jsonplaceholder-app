@@ -1,0 +1,8 @@
+<div class="todos-container">
+  <h2 class="title"  style="margin-left: 0px;">Todos</h2>
+  <div *ngFor="let todo of todos">
+    <h2>{{ todo.id }}</h2>
+    <span>{{ todo.title }}</span> - <span>{{ todo.completed }}</span>
+  </div>
+</div>
+

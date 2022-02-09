@@ -1,0 +1,10 @@
+<div class="users-container">
+  <h2 class="title" style="margin-left: 0px;">Users</h2>
+  <div *ngFor="let user of users">
+    <h2>{{ user.username }}</h2>
+    <small><strong>Name: </strong>{{ user.name | uppercase }}</small><br>
+    <small><strong>Email: </strong>{{ user.email }}</small><br>
+    <small><strong>Website: </strong>{{ user.website }}</small><br>
+  </div>
+</div>
+

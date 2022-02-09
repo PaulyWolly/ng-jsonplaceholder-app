@@ -1,0 +1,8 @@
+<div class="comments-container">
+  <h2 class="title"  style="margin-left: 0px;">Comments</h2>
+  <div *ngFor="let comment of comments">
+    <h2>{{ comment.id }}</h2><span>{{ comment.name | uppercase }}</span>
+    <p>{{ comment.body }}</p>
+  </div>
+</div>
+

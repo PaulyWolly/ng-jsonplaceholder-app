@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+/* variables set for font colors */
+:root {
+  --green:rgb(29, 119, 26);
+  --light-grey:rgb(201, 199, 199);
+  --blue:blue;
+  --orange:orange;
+  --red:red;
+}
+
+h2.title {
+  color: var(--red);
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.posts-container, .albums-container, .comments-container,
+.users-container {
+  padding: 20px;
+}

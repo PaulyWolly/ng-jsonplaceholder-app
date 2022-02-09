@@ -1,0 +1,8 @@
+<div class="photos-container">
+  <h2 class="title"  style="margin-left: 0px;">Photos</h2>
+  <div *ngFor="let photo of photos">
+    <h2>{{ photo.id }}</h2><span>{{ photo.title | uppercase }}</span>
+    <p>{{ photo.url }}</p>
+    <p class="image-text">Image: <img src="{{ photo.thumbnailUrl}}" alt="photo"></p>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+.add-post {
+  position: relative;
+  bottom: 24px;
+  left: 0px;
+}
+
+.card{
+  position:absolute;
+  top: 116px;
+  margin-bottom: 30px;
+}
